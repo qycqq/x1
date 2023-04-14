@@ -1,0 +1,462 @@
+{
+    "name": "TTP rules coverage",
+	"versions": {
+		"attack": "12",
+		"navigator": "4.8.0",
+		"layer": "4.4"
+	},
+	"domain": "enterprise-attack",
+    "gradient": {
+        "colors": [
+            "#ffffff00",
+            "#e00808ff"
+        ],
+        "maxValue": 10,
+        "minValue": 0
+    },
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "average",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": true,
+        "countUnscored": true
+    },
+	"filters": {
+		"platforms": [
+			"Windows"
+		]
+	},
+    "techniques": [
+    {
+        "techniqueID": "T1190",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1133",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1200",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1566.001",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1566.002",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1566.003",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1078.001",
+        "score": 7,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1078.002",
+        "score": 7,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1078.003",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1059.001",
+        "score": 8,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1059.003",
+        "score": 9,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1059.005",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1059.006",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1059.007",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1609",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1610",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1203",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1559.001",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1559.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1106",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1053.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1053.005",
+        "score": 7,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1129",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1072",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1569.002",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1204.001",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1204.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1204.003",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1047",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1098.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1197",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.001",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.005",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.008",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.010",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1547.014",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1136.001",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1543.003",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1574.005",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1505.003",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1068",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.012",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1564.003",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1564.004",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1564.005",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1562.001",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1070.001",
+        "score": 8,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1036.003",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1036.004",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1036.005",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1027.001",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1027.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1027.003",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.001",
+        "score": 8,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.002",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.003",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.004",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1055.009",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1218.005",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1218.010",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1218.011",
+        "score": 8,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1555.001",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.001",
+        "score": 6,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.002",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.003",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.004",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.005",
+        "score": 5,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1003.006",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1087.001",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1087.002",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1482",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1069.001",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1069.002",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1012",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1016.001",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1021.001",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1021.002",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1021.003",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1021.004",
+        "score": 2,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1021.006",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1005",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1114.001",
+        "score": 1,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1071.001",
+        "score": 4,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1071.004",
+        "score": 3,
+        "comment": ""
+    },
+    {
+        "techniqueID": "T1105",
+        "score": 3,
+        "comment": ""
+    }
+]
+}
